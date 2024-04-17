@@ -1,5 +1,6 @@
 {
   "name": "portfolio_website",
+  "homepage": "https://dylanvig.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,8 +14,7 @@
     "react-slick": "^0.30.2",
     "sass": "^1.71.1",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://dylanvig.github.io"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
