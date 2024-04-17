@@ -1,0 +1,57 @@
+.underline {
+    border-bottom: 2px solid red;
+}
+
+.home-intro {
+    background-image: url('../assets/background2.jpg'); /* Adjust the path as necessary */
+    background-size: cover;
+    background-position: center;
+    height: auto; /* This ensures the background covers the whole viewport */
+    width: 100%;
+    line-height: 10px;
+
+    h1 {
+        font-family: 'Palatino';
+        font-size: 120px;
+        color: white;
+        text-decoration: 'bold', 'underline';
+    }
+
+    h2 {
+        font-family: 'Palatino';
+        font-size: 50px;
+        color: white;
+        text-decoration: underline;
+    }
+}
+
+.projects-page {
+    background-image: url('../assets/background2.jpg'); /* Adjust the path as necessary */
+    background-size: cover;
+    background-position: center;
+    height: auto; /* This ensures the background covers the whole viewport */
+    width: 100%;
+    transition: ease-in;
+
+    p {
+        font-size: 25px;
+    }
+}
+
+h1 {
+    font-family: 'Palatino';
+    font-size: 70px;
+    color: white;
+}
+
+h3 {
+    font-family: 'Palatino';
+    font-size: 40px;
+    color: white;
+}
+
+p {
+    font-family: 'Palatino';
+    font-size: 18px;
+    color: white;
+}

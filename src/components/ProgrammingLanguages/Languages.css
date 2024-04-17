@@ -1,0 +1,44 @@
+.Languages-Left {
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(to bottom right, gray, black);
+    margin-top: 40px;
+    padding: 30px;
+    display: flex;
+    align-items: flex-start; 
+    flex-direction: column;
+    
+    h1 {
+        margin-bottom: 20px;
+    }
+}
+
+.Languages-Data-Container { /* Correct the class name to match your JSX */
+    display: flex;
+    flex-direction: row; /* Correct value for inline display */
+    justify-content: center; /* Adjusts the alignment as needed */
+    flex-wrap: wrap; /* Allows items to wrap to the next line if the container is too narrow */
+    width: 100%; /* Ensures the container takes the full width */
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.Languages-Boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+    img:hover {
+        filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5))
+    }
+    
+}
+
+h4 {
+    color: white;
+    font-size: 10px;
+}

@@ -1,0 +1,51 @@
+.slider-container {
+    width: 80%; /* Example fixed width */
+    margin: auto; /* Center the slider if desired */
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: gray; /* Sets the background to white */
+    border-radius: 15px; /* Adjust this value to get the desired roundness of corners */
+    padding: 30px; /* Adjust this for the desired spacing inside the square */
+
+    h3 {
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    h4 {
+        margin-top: -40px;
+        font-family: 'Palatino';
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+.slick-slide img {
+    width: 100%; /* Make the image width responsive to the slide */
+    height: auto;
+    max-height: 500px; /* Set a maximum height for all images */
+    object-fit: cover; /* Cover the slide area without distorting the image */
+    border: 2px solid white; /* Adds a white border, adjust thickness as desired */
+    display: block;
+}
+
+.slick-slide video {
+    width: 100%; /* Make the image width responsive to the slide */
+    aspect-ratio: 1/1;
+    max-height: 500px; /* Set a maximum height for all images */
+    object-fit: cover; /* Cover the slide area without distorting the image */
+    border: 2px solid white; /* Adds a white border, adjust thickness as desired */
+    display: block;
+}
+
+.slick-dots li {
+    background-color: gray !important;
+    border-radius: 50%;
+}
+
+.slick-dots li.slick-active button:before {
+    color: White !important;
+}
