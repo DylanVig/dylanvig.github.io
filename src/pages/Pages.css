@@ -4,7 +4,10 @@
 
 .home-intro {
     background-image: url('../assets/background2.jpg'); /* Adjust the path as necessary */
-    background-size: cover;
+    background-color: white;
+    background-size: cover; /* Scale the background image to be as large as possible */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed; /* Optional: Fix the background relative to the viewport */
     background-position: center;
     height: auto; /* This ensures the background covers the whole viewport */
     width: 100%;
@@ -32,6 +35,7 @@
     height: auto; /* This ensures the background covers the whole viewport */
     width: 100%;
     transition: ease-in;
+    overflow-x: hidden;
 
     p {
         font-size: 25px;

@@ -2,11 +2,12 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    margin-right: 20px;
-
+    justify-content: center;
+    margin-top: 20px;
+    
     ul {
         display: inline-flex;
+        list-style: none;
     }
     
     button {    
@@ -20,14 +21,14 @@
         background: black;
         font-family: Palatino;
         font-size: 30px;
-        border-radius: 10%;
+        border-radius: 10px;
     }
 
     button:hover {
         background: gray;
         transition-timing-function: ease-out;
         transition-duration: 200ms;
-        border-radius: 10%;
+        border-radius: 5px;
     }
 
 }

@@ -1,12 +1,13 @@
 import { SKILLS_DATA } from './SkillsData.js'
+import SkillsButton from './SkillsButton.js'
+import './SkillsButton.css'
 
 export default function Skills() {
     return (
-        <div>
+        <div className='skillSection'>
             <center>
-                <h1>Skills</h1>
-                {SKILLS_DATA.map((skills) => (
-                    <button>{ skills.title }</button>
+                {SKILLS_DATA.map((skill) => (
+                    <SkillsButton key={skill.title} name={skill.title} />
                 ))}
             </center>
         </div>
