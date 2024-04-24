@@ -30,7 +30,14 @@ export default function Experience() {
 
   const Timeline = () => {
     return (
-      <Chrono items={timelineItems} mode="VERTICAL" />
+      <Chrono 
+      items={timelineItems} 
+      theme={{
+        primary: 'white',
+        secondary: 'white'
+      }}
+      mode="VERTICAL_ALTERNATING" 
+      />
     );
   };
         

@@ -2,6 +2,7 @@ import "./Pages.css";
 import React, { useState, useEffect } from "react";
 import NavBar from "../components/NavBar/NavBar.js";
 import Footer from "../components/Footer/Footer.js";
+import ContactForm from "../components/ContactForm/ContactForm.js"
 
 export default function Contact() {
   const [loaded, setLoaded] = useState(0);
@@ -25,6 +26,7 @@ export default function Contact() {
           Contact
         </h1>
       </center>
+      <ContactForm />
       <Footer />
     </div>
   );
