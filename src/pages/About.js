@@ -7,7 +7,7 @@ import Experience from '../components/Experience/Experience.js'
 export default function About() {
     return (
         <div className='projects-page'>
-            <NavBar />
+            <center><NavBar /></center>
             <h1>About</h1>
             <Experience />
             <Footer />

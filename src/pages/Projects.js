@@ -17,7 +17,7 @@ export default function Projects() {
 
   return (
     <div className="projects-page">
-      <NavBar />
+      <center><NavBar /></center>
       <center>
         <h1
           style={{

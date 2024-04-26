@@ -4,7 +4,6 @@
 
 .Footer-Left {
     width: 100%;
-    display: flex;
     margin-top: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -15,11 +14,13 @@
     img {
         margin-right: 5px;
         flex-direction: inline;
-        filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5))
+        filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+        transition: transform 250ms;
     }
 
     img:hover {
         filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5));
+        transform: scale(1.1);
     }
     
     h1 {

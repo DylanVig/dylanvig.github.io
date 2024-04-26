@@ -15,7 +15,7 @@ export default function Home() {
 
     return (
         <div className='home-intro'>
-            <NavBar />
+            <center><NavBar /></center>
             <h1 >Hey</h1>
             <h2>I'm Dylan,</h2>
             <h2>an Aspiring Software Engineer</h2>

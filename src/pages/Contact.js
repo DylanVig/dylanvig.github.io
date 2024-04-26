@@ -6,6 +6,7 @@ import ContactForm from "../components/ContactForm/ContactForm.js"
 
 export default function Contact() {
   const [loaded, setLoaded] = useState(0);
+  const [loaded2, setLoaded2] = useState(0);
 
   useEffect(() => {
     const timer = setTimeout(() => setLoaded(1), 100);
@@ -14,8 +15,16 @@ export default function Contact() {
 
   return (
     <div className="projects-page">
-      <NavBar />
       <center>
+        <NavBar />
+      </center>
+      <center
+        style={{
+          opacity: loaded,
+          transition: "opacity 800ms ease-in",
+          filter: "drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)",
+        }}
+      >
         <h1
           style={{
             opacity: loaded,
@@ -26,7 +35,15 @@ export default function Contact() {
           Contact
         </h1>
       </center>
-      <ContactForm />
+      <center
+        style={{
+          opacity: loaded,
+          transition: "opacity 800ms ease-in",
+          filter: "drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)",
+        }}
+      >
+        <ContactForm />
+      </center>
       <Footer />
     </div>
   );

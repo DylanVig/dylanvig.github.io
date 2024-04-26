@@ -12,12 +12,14 @@
         font-family: Palatino;
         font-size: 30px;
         border-radius: 20px;
+        transition: transform 750ms;
     }
     button:hover {
         background: lightgray;
         transition-timing-function: ease-out;
         transition-duration: 200ms;
-        border-radius: 10px;
+        border-radius: 20px;
+        transform: scale(1.05);
     }
 }
 .skillSection {
