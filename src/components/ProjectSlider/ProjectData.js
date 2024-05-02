@@ -9,7 +9,7 @@ export const PROJECTS = [
         video: snake2,
         title: 'Snake',
         time: 'December 2023',
-        description: 'This is my recreation of snake, and my first personal project (made from scratch). Ever since I started coding, it was always my goal to recreate this game, and I was finally able to accomplish this goal. I used Java for both the front end and the back end, utilizing the Swing library and the Abstract Window Toolkit. When creating my project, the main logic I used to create the snake was a reversed Linked List to create the chaining effect. Overall, this was a fun project to work on and a very fulfilling experience. Here is my project link: ',
+        description: 'This is my recreation of snake, and my first personal project. Ever since I started coding, it was always my goal to recreate this game, and I was finally able to accomplish this goal. I used Java for both the front end and the back end, utilizing the Swing library and the Abstract Window Toolkit. When creating my project, the main logic I used to create the snake was a reversed Linked List to create the chaining effect. Overall, this was a fun project to work on and a very fulfilling experience. Here is my project link: ',
         github: 'https://github.com/DylanVig/Snake.git',
         skills: ['Java']
     },
@@ -27,7 +27,7 @@ export const PROJECTS = [
         video: snake2,
         title: 'Snake',
         time: 'December 2023',
-        description: 'This is my recreation of snake, and my first personal project (made from scratch). Ever since I started coding, it was always my goal to recreate this game, and I was finally able to accomplish this goal. I used Java for both the front end and the back end, utilizing the Swing library and the Abstract Window Toolkit. When creating my project, the main logic I used to create the snake was a reversed Linked List to create the chaining effect. Overall, this was a fun project to work on and a very fulfilling experience. Here is my project link: ',
+        description: 'This is my recreation of snake, and my first personal project. Ever since I started coding, it was always my goal to recreate this game, and I was finally able to accomplish this goal. I used Java for both the front end and the back end, utilizing the Swing library and the Abstract Window Toolkit. When creating my project, the main logic I used to create the snake was a reversed Linked List to create the chaining effect. Overall, this was a fun project to work on and a very fulfilling experience. Here is my project link: ',
         github: 'https://github.com/DylanVig/Snake.git',
         skills: ['Java']
     },

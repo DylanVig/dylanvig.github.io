@@ -30,6 +30,7 @@
 
 .projects-page {
     background-image: url('../assets/background2.jpg'); /* Adjust the path as necessary */
+    /*background-color: lightblue;*/
     background-size: cover;
     background-position: center;
     height: auto; /* This ensures the background covers the whole viewport */
@@ -39,6 +40,19 @@
 
     p {
         font-size: 25px;
+    }
+
+    h2 {
+        color: white;
+        font-family: Palatino;
+        font-size: 40px;
+    }
+
+    h4 {
+        color: white;
+        font-family: Palatino;
+        font-size: 30px;
+        width: 60%;
     }
 }
 

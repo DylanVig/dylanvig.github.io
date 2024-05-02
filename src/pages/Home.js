@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import NavBar from '../components/NavBar/NavBar.js'
 import Footer from '../components/Footer/Footer.js'
 import Skills from '../components/Skills/Skills.js'
+import Intro from '../components/Intro/Intro.js'
 
 export default function Home() {
 
@@ -14,12 +15,20 @@ export default function Home() {
     }, []);
 
     return (
-        <div className='home-intro'>
-            <center><NavBar /></center>
-            <h1 >Hey</h1>
-            <h2>I'm Dylan,</h2>
-            <h2>an Aspiring Software Engineer</h2>
-            <Footer />
-        </div>
-    )
+      <div className="projects-page">
+        <center>
+          <NavBar />
+        </center>
+        <center
+          style={{
+            opacity: loaded,
+            transition: "opacity 400ms ease-in",
+            filter: "drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)",
+          }}
+        >
+          <Intro />
+        </center>
+        <Footer />
+      </div>
+    );
 }

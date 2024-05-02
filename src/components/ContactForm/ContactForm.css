@@ -11,7 +11,7 @@
     max-width: 800px; /* Adjust this value to suit your design */
     box-sizing: border-box; /* This ensures padding is included in width */
     padding: 20px; 
-    background-color: rgba(155, 155, 155, 0.1);
+    background-color: rgba(155, 155, 155, 0.2);
 
     button {    
         color: white;
@@ -113,7 +113,7 @@
 }
 
 .button2 {    
-    color: white;
+    color: black;
     width: 15%;
     padding-top: 8px;
     padding-bottom: 8px;
