@@ -40,8 +40,8 @@ export default function Projects() {
         style={{
           opacity: loaded,
           transition: "opacity 1200ms ease-in",
-          filter: "drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5))", // Added closing parenthesis
-          marginTop: "100px", // This should now apply correctly
+          filter: "drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5))",
+          marginTop: "100px",
         }}
       >
         <h1>Skills</h1>

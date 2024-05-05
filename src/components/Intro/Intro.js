@@ -12,14 +12,10 @@ export default function Intro() {
     navigate("/contact")
   }
 
-  function openResume() {
-    <ResumeView pdf={resume} />
-  }
-
   return (
     <section className="intro">
       <div className="section_pic_container">
-        <img src={headshot} alt="Profile Picture" />
+        <img src={headshot} />
       </div>
       <div className="section_text">
         <p className="section_text_p1">Hello, I'm</p>
@@ -27,11 +23,10 @@ export default function Intro() {
 
         <TypeAnimation
           sequence={[
-            // Same substring at the start will only be typed out once, initially
             "Software Developer",
-            1500, // wait 1s before replacing "Mice" with "Hamsters"
-            "CS Student",
-            1500,
+            1500, 
+            "Cornell CS Student",
+            1500
           ]}
           wrapper="span"
           speed={30}

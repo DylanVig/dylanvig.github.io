@@ -1,9 +1,17 @@
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
+import LanguageButton from './LanguageButton.js'
 
 export default function SliderPage(props) {
 
   const [ isHovering, setIsHovering ] = useState(false);
   const videoRef = useRef(null);
+  const [ isFlipped, setFlipped ] = useState(false);
+  const [loaded, setLoaded] = useState(1);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoaded(1), 100);
+    return () => clearTimeout(timer);
+}, []);
 
   const handleMouseEnter = () => {
       setIsHovering(true);
@@ -30,27 +38,63 @@ export default function SliderPage(props) {
     }
   };
 
+  function flip() {
+    setFlipped(!isFlipped);
+  }
+
   return (
-    <div className="slider-container">
-      <center>
-        <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} onMouseMove={handleMouseMove} className="video-size">
-        {isHovering ? (
-          <video
-            ref={videoRef}
-            src={props.video} // props.video should be the path to your video file
-            loop
-            muted // Consider autoplaying videos muted to adhere to browser policies
-            preload="auto"
-          />
-        ) : (
-          <img src={props.image} alt={props.title} className="slider-image" />
-        )}
+    <div>
+      {!isFlipped ? (
+        <div className="slider-container" onClick={flip}>
+          <center>
+            <div
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+              onMouseMove={handleMouseMove}
+              className="video-size"
+            >
+              {isHovering ? (
+                <video
+                  ref={videoRef}
+                  src={props.video}
+                  loop
+                  muted
+                  preload="auto"
+                />
+              ) : (
+                <img
+                  src={props.image}
+                  alt={props.title}
+                  className="slider-image"
+                />
+              )}
+            </div>
+            <h3 className="slider-title">{props.title}</h3>
+            <h4 className="slider-title">{props.time}</h4>
+            <p style={{ fontWeight: "600" }}>Click for Details!</p>
+          </center>
         </div>
-          <h3 className="slider-title">{props.title}</h3>
-          <h4 className="slider-title">{props.time}</h4>
-          <p className="slider-description">{props.description}</p>
-          <p className="slider-github">{props.github}</p>
-      </center>
+      ) : (
+        <div className="slider-container" onClick={flip}>
+          <center>
+            <h3 className="slider-title2">{props.title}</h3>
+            <h4 className="slider-title">{props.time}</h4>
+            <p className="slider-description">{props.description}</p>
+            <p className="slider-github">
+              <a href={props.github} target="_blank" rel="noopener noreferrer">
+                View on GitHub
+              </a>
+            </p>
+            <div className="language-button">
+              {props.skills.map((skill) => (
+                <div key={skill}>
+                  <LanguageButton skill={skill} />
+                </div>
+              ))}
+            </div>
+          </center>
+        </div>
+      )}
     </div>
   );
 }

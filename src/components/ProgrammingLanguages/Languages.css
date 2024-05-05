@@ -13,12 +13,12 @@
     }
 }
 
-.Languages-Data-Container { /* Correct the class name to match your JSX */
+.Languages-Data-Container { 
     display: flex;
-    flex-direction: row; /* Correct value for inline display */
-    justify-content: center; /* Adjusts the alignment as needed */
-    flex-wrap: wrap; /* Allows items to wrap to the next line if the container is too narrow */
-    width: 100%; /* Ensures the container takes the full width */
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; 
+    width: 100%; 
 }
 
 img {

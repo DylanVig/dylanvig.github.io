@@ -2,7 +2,6 @@ import './Pages.css'
 import React, { useState, useEffect } from 'react'
 import NavBar from '../components/NavBar/NavBar.js'
 import Footer from '../components/Footer/Footer.js'
-import Skills from '../components/Skills/Skills.js'
 import Intro from '../components/Intro/Intro.js'
 
 export default function Home() {
@@ -22,7 +21,7 @@ export default function Home() {
         <center
           style={{
             opacity: loaded,
-            transition: "opacity 400ms ease-in",
+            transition: "opacity 800ms ease-in",
             filter: "drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)",
           }}
         >
