@@ -39,13 +39,26 @@ export default function Contact() {
         style={{
           opacity: loaded,
           transition: "opacity 800ms ease-in",
-          filter: "drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)"
+          filter: "drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)",
         }}
       >
-        <h4>I'm always open to discussing new opportunities, collaborations, and ideas. Whether it's work, a personal project, or just to share thoughts and hobbies, I'd love to hear from you! Feel free to use the form below or reach out directly via email or phone!</h4>
+        <h4>
+          I'm always open to discussing new opportunities, collaborations, and
+          ideas. Whether it's work, a personal project, or just to share
+          thoughts and hobbies, I'd love to hear from you! Feel free to use the
+          form below or reach out directly via email or phone!
+        </h4>
         <ContactForm />
       </center>
-      <Footer />
+      <center
+        style={{
+          opacity: loaded,
+          transition: "opacity 1200ms ease-in",
+          filter: "drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)",
+        }}
+      >
+        <Footer />
+      </center>
     </div>
   );
 }

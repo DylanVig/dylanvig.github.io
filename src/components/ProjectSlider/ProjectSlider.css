@@ -56,6 +56,8 @@
     display: block;
     opacity: 0.25;
     transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
+    object-fit: contain;
+    background-color: black;
 }
 
 .slick-slide video:hover {

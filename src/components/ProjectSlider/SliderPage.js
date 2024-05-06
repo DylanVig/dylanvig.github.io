@@ -66,6 +66,7 @@ export default function SliderPage(props) {
                   src={props.image}
                   alt={props.title}
                   className="slider-image"
+                  style={{ width: '375px', height: '375px'}}
                 />
               )}
             </div>

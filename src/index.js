@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './pages/Home.js'
 import About from './pages/About.js'
+import ExperiencePage from './pages/ExperiencePage.js'
 import Projects from './pages/Projects.js'
 import Contact from './pages/Contact.js'
 import reportWebVitals from './reportWebVitals.js';
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "About",
     element:<About />,
+  },
+  {
+    path: "ExperiencePage",
+    element:<ExperiencePage />,
   },
   {
     path: "Projects",

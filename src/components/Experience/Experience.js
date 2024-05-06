@@ -12,6 +12,7 @@ import cybersecurity from '../../assets/icons/cybersecurity.jpg'
 import fintech from '../../assets/icons/fintech.jpg'
 import research from '../../assets/icons/research.jpg'
 import energy from '../../assets/icons/energy.jpg'
+import tutoring from '../../assets/icons/tutoring.jpg'
 
 export default function Experience() {
 
@@ -43,6 +44,10 @@ export default function Experience() {
     return <img src={energy} alt='hi' style={{ width: "35px", height: "35px", filter: "invert(100%)" }}/>;
   }
 
+  function Tutoring() {
+    return <img src={tutoring} alt='hi' style={{ width: "35px", height: "35px", filter: "invert(100%)" }}/>;
+  }
+
   return (
     <div className="timeline">
     <VerticalTimeline>
@@ -61,15 +66,14 @@ export default function Experience() {
           Software Engineering Intern
         </h4>
         <p>
-          Creative Direction, User Experience, Visual Design, SEO, Online
-          Marketing
+          Start working on June 2nd
         </p>
       </VerticalTimelineElement>
     <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(155, 155, 155)", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  rgb(0,0,0)" }}
-        date="May 2024 - Present"
+        date="May 2024 - Aug 2024"
         iconStyle={{ background: "rgb(155, 155, 155)", color: "#fff", display: 'flex',
         alignItems: 'center',
         justifyContent: 'center' }}
@@ -80,8 +84,7 @@ export default function Experience() {
           Software Engineering Intern
         </h4>
         <p>
-          Creative Direction, User Experience, Visual Design, SEO, Online
-          Marketing
+          Start working on May 20th
         </p>
       </VerticalTimelineElement>
     <VerticalTimelineElement
@@ -99,8 +102,7 @@ export default function Experience() {
         Imaging Systems Software Developer
         </h4>
         <p>
-          Creative Direction, User Experience, Visual Design, SEO, Online
-          Marketing
+          Part of a Team that Builds an Autonomous Plane. On Imaging Systems, We Develop Software to Capture and Process Imaging Data
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -132,7 +134,7 @@ export default function Experience() {
         <h3 className="vertical-timeline-element-title" style={{ fontSize: '35px'}}>NYU Jonathan M. Tisch Center of Hospitality</h3>
         <h4 className="vertical-timeline-element-subtitle" style={{ fontSize: '25px'}}>Research Intern</h4>
         <p style={{ fontSize: '18px'}}>
-          Researched the impacts of COVID-19 on overtourism under the guidance of Professor Anna Abelson
+          Researched the Impacts of COVID-19 on Overtourism Under the Guidance of Professor Anna Abelson
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -164,47 +166,40 @@ export default function Experience() {
         <h3 className="vertical-timeline-element-title" style={{ fontSize: '35px'}}>Orange Energizing Solutions</h3>
         <h4 className="vertical-timeline-element-subtitle" style={{ fontSize: '25px'}}>Sales Intern</h4>
         <p style={{ fontSize: '18px'}}>
-          Organized Company Database, Administered Client Documentation, and researched sustainability programs and potential partnerships; Jun 2022 - Aug 2022 and February 2023 - Aug 2023
+          Organized Company Database, Administered Client Documentation, and Researched Sustainability Programs and Potential Partnerships; Jun 2022 - Aug 2022 and February 2023 - Aug 2023
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(155, 155, 155)", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  rgb(0,0,0)" }}
-        date="2011 - present"
-        iconStyle={{ background: "rgb(155, 155, 155)", color: "#fff" }}
+        date="Jun 2022 - Aug 2023"
+        iconStyle={{ background: "rgb(155, 155, 155)", color: "#fff", display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center' }}
+        icon={<Engineering />}
       >
-        <h3 className="vertical-timeline-element-title">
-          Content Marketing for Web, Mobile and Social Media
-        </h3>
-        <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-        <p>Strategy, Social Media</p>
+        <h3 className="vertical-timeline-element-title" style={{ fontSize: '35px'}}>Actasys</h3>
+        <h4 className="vertical-timeline-element-subtitle" style={{ fontSize: '25px'}}>Mechanical Engineering Intern</h4>
+        <p style={{ fontSize: '18px'}}>
+          Manufactured the Patented Actajet Technology, Tested Jet Efficiency and Identified Improvements to the Product and Manufacturing Process
+        </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(155, 155, 155)", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  rgb(0,0,0)" }}
-        date="2011 - present"
-        iconStyle={{ background: "rgb(155, 155, 155)", color: "#fff" }}
+        date="Jun 2021 - Present"
+        iconStyle={{ background: "rgb(155, 155, 155)", color: "#fff", display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center' }}
+        icon={<Tutoring />}
       >
-        <h3 className="vertical-timeline-element-title">
-          Agile Development Scrum Master
-        </h3>
-        <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-        <p>Creative Direction, User Experience, Visual Design</p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className="vertical-timeline-element--work"
-        contentStyle={{ background: "rgb(155, 155, 155)", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  rgb(0,0,0)" }}
-        date="2011 - present"
-        iconStyle={{ background: "rgb(155, 155, 155)", color: "#fff" }}
-      >
-        <h3 className="vertical-timeline-element-title">
-          Bachelor of Science in Interactive Digital Media Visual Imaging
-        </h3>
-        <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-        <p>Creative Direction, Visual Design</p>
+        <h3 className="vertical-timeline-element-title" style={{ fontSize: '35px'}}>TutorLinkNYC</h3>
+        <h4 className="vertical-timeline-element-subtitle" style={{ fontSize: '25px'}}>Co-Founder + Co-President</h4>
+        <p style={{ fontSize: '18px'}}>
+          Provides Free and Accessible 1-on-1 Tutoring Services to Disadvantaged Students
+        </p>
       </VerticalTimelineElement>
     </VerticalTimeline>
     </div>

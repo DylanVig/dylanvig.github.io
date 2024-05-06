@@ -17,7 +17,9 @@ export default function Projects() {
 
   return (
     <div className="projects-page">
-      <center><NavBar /></center>
+      <center>
+        <NavBar />
+      </center>
       <center>
         <h1
           style={{
@@ -47,7 +49,15 @@ export default function Projects() {
         <h1>Skills</h1>
         <Skills />
       </center>
-      <Footer />
+      <center
+        style={{
+          opacity: loaded,
+          transition: "opacity 1200ms ease-in",
+          filter: "drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)",
+        }}
+      >
+        <Footer />
+      </center>
     </div>
   );
 }

@@ -27,7 +27,15 @@ export default function Home() {
         >
           <Intro />
         </center>
-        <Footer />
+        <center
+          style={{
+            opacity: loaded,
+            transition: "opacity 1200ms ease-in",
+            filter: "drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)",
+          }}
+        >
+          <Footer />
+        </center>
       </div>
     );
 }

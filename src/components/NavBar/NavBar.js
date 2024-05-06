@@ -29,6 +29,12 @@ export default function NavBar() {
             About
           </NavButton>
           <NavButton
+            isSelected={selectedPage === "ExperiencePage"}
+            onClick={() => handleSelect("ExperiencePage")}
+          >
+            Experience
+          </NavButton>
+          <NavButton
             isSelected={selectedPage === "Projects"}
             onClick={() => handleSelect("Projects")}
           >
