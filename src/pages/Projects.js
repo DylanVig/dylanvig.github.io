@@ -25,7 +25,7 @@ export default function Projects() {
           style={{
             opacity: loaded,
             transition: "opacity 400ms ease-in",
-            filter: "drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)",
+            filter: "drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5))",
           }}
         >
           Projects
