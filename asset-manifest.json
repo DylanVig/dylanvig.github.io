@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.edf5f4fd.css",
-    "main.js": "/static/js/main.f8020c2e.js",
-    "static/js/453.aac68abc.chunk.js": "/static/js/453.aac68abc.chunk.js",
+    "main.css": "/static/css/main.f2467dc5.css",
+    "main.js": "/static/js/main.2eec7c35.js",
+    "static/js/453.2ddb282f.chunk.js": "/static/js/453.2ddb282f.chunk.js",
+    "static/media/portfolio2.mov": "/static/media/portfolio2.66379c3f0c436c9c0b0c.mov",
     "static/media/tetris_recording.mov": "/static/media/tetris_recording.af9eb4764752bc3774e4.mov",
+    "static/media/headshot.jpg": "/static/media/headshot.0c315cdb04256f956089.jpg",
     "static/media/snake_recording.mov": "/static/media/snake_recording.b76bed675aad398b1f77.mov",
+    "static/media/portfolio1.jpg": "/static/media/portfolio1.a40efa8e6f1a2b1d33a2.jpg",
     "static/media/react.jpg": "/static/media/react.df11b13b237bf2b13730.jpg",
+    "static/media/Dylan_Vig_Resume.pdf": "/static/media/Dylan_Vig_Resume.c0826b5178cbacea6f39.pdf",
     "static/media/snake1.jpg": "/static/media/snake1.ab646118dcd0aed374cc.jpg",
     "static/media/background2.jpg": "/static/media/background2.45f11ef07e4c1cc8bcf2.jpg",
     "static/media/tetris1.jpg": "/static/media/tetris1.ca8e9273297d4a9f2d6c.jpg",
@@ -15,18 +19,23 @@
     "static/media/github.jpg": "/static/media/github.3fc5ead9ff318bda611c.jpg",
     "static/media/html.jpg": "/static/media/html.7b4758edb5772f573987.jpg",
     "static/media/css.jpg": "/static/media/css.27e12ff4d67292d43489.jpg",
+    "static/media/engineering.jpg": "/static/media/engineering.d77e7c4bdc0e664c2c58.jpg",
+    "static/media/plane.jpg": "/static/media/plane.25e903d53fae707005bc.jpg",
     "static/media/python.jpg": "/static/media/python.8597f5759573e8e15433.jpg",
+    "static/media/cybersecurity.jpg": "/static/media/cybersecurity.cbc73043919d3348704b.jpg",
+    "static/media/fintech.jpg": "/static/media/fintech.9840fb6ecf8d24e1e804.jpg",
+    "static/media/education.jpg": "/static/media/education.2eab50e63fba8d8978c4.jpg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.edf5f4fd.css.map": "/static/css/main.edf5f4fd.css.map",
-    "main.f8020c2e.js.map": "/static/js/main.f8020c2e.js.map",
-    "453.aac68abc.chunk.js.map": "/static/js/453.aac68abc.chunk.js.map"
+    "main.f2467dc5.css.map": "/static/css/main.f2467dc5.css.map",
+    "main.2eec7c35.js.map": "/static/js/main.2eec7c35.js.map",
+    "453.2ddb282f.chunk.js.map": "/static/js/453.2ddb282f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edf5f4fd.css",
-    "static/js/main.f8020c2e.js"
+    "static/css/main.f2467dc5.css",
+    "static/js/main.2eec7c35.js"
   ]
 }
