@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f2467dc5.css",
-    "main.js": "/static/js/main.2eec7c35.js",
+    "main.css": "/static/css/main.7a17eb49.css",
+    "main.js": "/static/js/main.ab01f4b9.js",
     "static/js/453.2ddb282f.chunk.js": "/static/js/453.2ddb282f.chunk.js",
     "static/media/portfolio2.mov": "/static/media/portfolio2.66379c3f0c436c9c0b0c.mov",
     "static/media/tetris_recording.mov": "/static/media/tetris_recording.af9eb4764752bc3774e4.mov",
@@ -12,6 +12,7 @@
     "static/media/Dylan_Vig_Resume.pdf": "/static/media/Dylan_Vig_Resume.c0826b5178cbacea6f39.pdf",
     "static/media/snake1.jpg": "/static/media/snake1.ab646118dcd0aed374cc.jpg",
     "static/media/background2.jpg": "/static/media/background2.45f11ef07e4c1cc8bcf2.jpg",
+    "static/media/progress.jpg": "/static/media/progress.e2bc01e68fd8c2d77ec7.jpg",
     "static/media/tetris1.jpg": "/static/media/tetris1.ca8e9273297d4a9f2d6c.jpg",
     "static/media/tutorlinknyc.jpg": "/static/media/tutorlinknyc.89cfca6b25192988f301.jpg",
     "static/media/javascript.jpg": "/static/media/javascript.9355e754e9b27c4e5cd8.jpg",
@@ -30,12 +31,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.f2467dc5.css.map": "/static/css/main.f2467dc5.css.map",
-    "main.2eec7c35.js.map": "/static/js/main.2eec7c35.js.map",
+    "main.7a17eb49.css.map": "/static/css/main.7a17eb49.css.map",
+    "main.ab01f4b9.js.map": "/static/js/main.ab01f4b9.js.map",
     "453.2ddb282f.chunk.js.map": "/static/js/453.2ddb282f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2467dc5.css",
-    "static/js/main.2eec7c35.js"
+    "static/css/main.7a17eb49.css",
+    "static/js/main.ab01f4b9.js"
   ]
 }
