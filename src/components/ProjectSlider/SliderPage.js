@@ -86,11 +86,9 @@ export default function SliderPage(props) {
                 View on GitHub
               </a>
             </p>
-            <div className="language-button">
+            <div className="language-buttons">
               {props.skills.map((skill) => (
-                <div key={skill}>
-                  <LanguageButton skill={skill} />
-                </div>
+                <LanguageButton key={skill} skill={skill} />
               ))}
             </div>
           </center>

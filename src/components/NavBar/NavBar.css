@@ -1,5 +1,5 @@
 .NavBar {
-    width: 60%;
+    width: 730px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +25,7 @@
     border: none;
     background: black;
     font-family: Palatino;
-    font-size: 25px;
+    font-size: 150%;
     border-radius: 10px;
     margin: 0 10px;
 }

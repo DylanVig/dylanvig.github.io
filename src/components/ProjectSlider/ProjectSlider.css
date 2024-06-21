@@ -74,3 +74,8 @@
     color: White !important;
 }
 
+.language-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
