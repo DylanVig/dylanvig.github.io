@@ -70,7 +70,7 @@ export default function SliderPage(props) {
                 />
               )}
             </div>
-            <h3 className="slider-title">{props.title}</h3>
+            <h3>{props.title}</h3>
             <h4 className="slider-title">{props.time}</h4>
             <p style={{ fontWeight: "600" }}>Click for Details!</p>
           </center>

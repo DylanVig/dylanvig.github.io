@@ -14,7 +14,21 @@ export default function ProjectSlider({ style }) {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000
+    autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 1024, // Adjust this breakpoint as needed
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 600, // Up to 768px wide
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
   };
   return (
     <div style={style}>

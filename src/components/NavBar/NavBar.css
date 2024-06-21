@@ -1,22 +1,22 @@
 .NavBar {
-    width: 730px;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    background-color: rgb(128, 128, 128, 0.6);
+    background-color: rgba(128, 128, 128, 0.6); /* Fixed syntax */
     border-radius: 45px;
+    padding: 10px; /* Add padding for smaller screens */
 }
 
 .NavBar ul {
     display: flex;
     list-style: none;
-    padding: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: 100%;
     justify-content: center;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
 
 .NavBar button {    
@@ -34,4 +34,27 @@
     background: gray;
     transition: ease-out 200ms;
     border-radius: 5px;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .NavBar {
+        width: 90%;
+    }
+    
+    .NavBar button {
+        font-size: 20px;
+        padding: 6px 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .NavBar {
+        width: 100%;
+    }
+    
+    .NavBar button {
+        font-size: 18px;
+        padding: 5px 10px;
+    }
 }

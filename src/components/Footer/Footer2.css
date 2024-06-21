@@ -1,3 +1,4 @@
+/* Footer.css */
 .Footer {
     display: flex;
 }
@@ -13,13 +14,14 @@
     
     img {
         margin-right: 5px;
-        flex-direction: inline;
         filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+        -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5)); /* Safari */
         transition: transform 250ms;
     }
 
     img:hover {
         filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5));
+        -webkit-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5)); /* Safari */
         transform: scale(1.1);
     }
     
@@ -33,6 +35,7 @@
         width: 100%;
     }
 }
+
 .Footer-Right {
     width: 50%;
     display: flex;
@@ -40,13 +43,11 @@
     padding-right: 100px;
     padding-bottom: 10px;
     padding-top: 10px;
-    display: flex;
     align-items: flex-end; 
     flex-direction: column;
     
     img {
         margin-right: 5px;
-        flex-direction: inline;
     }
     
     h1 {
@@ -57,10 +58,10 @@
 
 .Footer-Data-Container {
     display: flex;
-    flex-direction: inline; /* This makes the items inside inline */
-    justify-content: center; /* Adjusts the alignment as needed */
-    flex-wrap: wrap; /* Allows items to wrap to the next line if the container is too narrow */
-    width: 100%; /* Ensures the container takes the full width */
+    flex-direction: row; /* Changed to row */
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .Footer-Boxes {
@@ -70,9 +71,9 @@
     margin: 20px;
     
     img {
-        width: 80px;
-        height: 80px;
-        border-radius: 100%;
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
     }
 
     h4 {

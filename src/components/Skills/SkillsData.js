@@ -6,6 +6,9 @@ export const SKILLS_DATA = [
         title: 'Python',
     },
     {
+        title: 'TypeScript'
+    },
+    {
         title: 'JavaScript',
     },
     {
@@ -22,6 +25,12 @@ export const SKILLS_DATA = [
     },
     {
         title: 'PostgreSQL',
+    },
+    {  
+        title: 'AWS'
+    },
+    {
+        title: 'Terraform'
     },
     {
         title: 'Mathematica',

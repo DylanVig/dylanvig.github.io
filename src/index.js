@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './reset.css'; // Import the CSS reset
 import './index.css';
-import Home from './pages/Home.js'
-import About from './pages/About.js'
-import ExperiencePage from './pages/ExperiencePage.js'
-import Projects from './pages/Projects.js'
-import Contact from './pages/Contact.js'
+import Home from './pages/Home.js';
+import About from './pages/About.js';
+import ExperiencePage from './pages/ExperiencePage.js';
+import Projects from './pages/Projects.js';
+import Contact from './pages/Contact.js';
 import reportWebVitals from './reportWebVitals.js';
 import {
   createBrowserRouter,
@@ -15,27 +16,27 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element:<Home />,
+    element: <Home />,
   },
   {
     path: "Home",
-    element:<Home />,
+    element: <Home />,
   },
   {
     path: "About",
-    element:<About />,
+    element: <About />,
   },
   {
     path: "ExperiencePage",
-    element:<ExperiencePage />,
+    element: <ExperiencePage />,
   },
   {
     path: "Projects",
-    element:<Projects />,
+    element: <Projects />,
   },
   {
     path: "Contact",
-    element:<Contact />,
+    element: <Contact />,
   }
 ]);
 

@@ -1,7 +1,7 @@
 section {
     padding-top: 4vh;
     height: 96vh;
-    margin: 0 5rem;
+    margin: 0 7rem;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -15,9 +15,10 @@ section {
     justify-content: center;
     gap: 2rem;
     height: 80vh;
-    background-color: rgb(128, 128, 128, 0.6);
+    background-color: rgba(128, 128, 128, 0.6);
     margin-top: 30px;
     border-radius: 10px;
+    box-sizing: border-box;
 }
 
 .section_pic_container {
@@ -25,13 +26,18 @@ section {
     height: 500px;
     width: 500px;
     align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 50%; 
+    box-sizing: border-box;
+}
 
-    img {
-        border-radius: 50%;
-        width: 80%;
-        height: 80%;
-        border: 5px solid white;
-    }
+.section_pic_container img {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-sizing: border-box;
 }
 
 .section_text {
@@ -64,20 +70,24 @@ section {
     display: flex;
     gap: 20px;
     margin: 50px;
+    justify-content: center; /* Ensure buttons are centered */
 }
 
-.btn-color-1 {
+.btn-color-1, .btn-color-2 {
     border-radius: 40px;
     width: 160px;
     height: 50px;
     font-size: 20px;
     font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none; 
 }
 
-.btn-color-2 {
-    border-radius: 40px;
-    width: 160px;
-    height: 50px;
-    font-size: 20px;
-    font-weight: 600;
+.a button {
+    text-decoration: none;
 }
+

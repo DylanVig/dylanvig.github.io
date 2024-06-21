@@ -33,7 +33,7 @@
     /*background-color: lightblue;*/
     background-size: cover;
     background-position: center;
-    height: auto; /* This ensures the background covers the whole viewport */
+    height: 100vh; /* This ensures the background covers the whole viewport */
     width: 100%;
     transition: ease-in;
     overflow-x: hidden;
