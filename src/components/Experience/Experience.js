@@ -55,7 +55,7 @@ export default function Experience() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(155, 155, 155)", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  rgb(0,0,0)" }}
-        date="June 2024 - August 2024"
+        date="June 2024 - Present"
         iconStyle={{ background: "rgb(155, 155, 155)", color: "#fff", display: 'flex',
         alignItems: 'center',
         justifyContent: 'center' }}
@@ -66,14 +66,15 @@ export default function Experience() {
           Software Engineering Intern
         </h4>
         <p>
-          Start working on June 2nd
+          Working on the Servicing Engineering - Communications Team. Developing a solution to make one-time password email status data accessible to agents, allowing them to verify if
+          customers received their authentication code when registering their account.
         </p>
       </VerticalTimelineElement>
     <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(155, 155, 155)", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  rgb(0,0,0)" }}
-        date="May 2024 - Aug 2024"
+        date="May 2024 - Present"
         iconStyle={{ background: "rgb(155, 155, 155)", color: "#fff", display: 'flex',
         alignItems: 'center',
         justifyContent: 'center' }}
@@ -84,7 +85,7 @@ export default function Experience() {
           Software Engineering Intern
         </h4>
         <p>
-          Start working on May 20th
+        Enhancing the current data discovery and masking system by integrating a more secure categorization and scoring model to enhance data protection by utilizing different Python libraries to increase the security and versatility.
         </p>
       </VerticalTimelineElement>
     <VerticalTimelineElement
@@ -102,7 +103,7 @@ export default function Experience() {
         Imaging Systems Software Developer
         </h4>
         <p>
-          Part of a Team that Builds an Autonomous Plane. On Imaging Systems, We Develop Software to Capture and Process Imaging Data
+          Part of a Team that Builds an Autonomous Plane. On Imaging Systems, We Develop Software to Capture and Process Imaging Data.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -116,9 +117,9 @@ export default function Experience() {
         icon={<Education />}
       >
         <h3 className="vertical-timeline-element-title" style={{ fontSize: '35px'}}>Cornell University</h3>
-        <h4 className="vertical-timeline-element-subtitle" style={{ fontSize: '25px'}}>Student</h4>
+        <h4 className="vertical-timeline-element-subtitle" style={{ fontSize: '25px'}}>Engineering Student</h4>
         <p style={{ fontSize: '18px'}}>
-          Pursuing a B.E. in Computer Science
+          Pursuing a B.E. in Computer Science.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -134,7 +135,7 @@ export default function Experience() {
         <h3 className="vertical-timeline-element-title" style={{ fontSize: '35px'}}>NYU Jonathan M. Tisch Center of Hospitality</h3>
         <h4 className="vertical-timeline-element-subtitle" style={{ fontSize: '25px'}}>Research Intern</h4>
         <p style={{ fontSize: '18px'}}>
-          Researched the Impacts of COVID-19 on Overtourism Under the Guidance of Professor Anna Abelson
+          Researched the Impacts of COVID-19 on Overtourism Under the Guidance of Professor Anna Abelson.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -150,7 +151,7 @@ export default function Experience() {
         <h3 className="vertical-timeline-element-title" style={{ fontSize: '35px'}}>Columbia Grammar and Preparatory School</h3>
         <h4 className="vertical-timeline-element-subtitle" style={{ fontSize: '25px'}}>Student</h4>
         <p style={{ fontSize: '18px'}}>
-          Math Club President; Multi-Ethnic Cultural Awareness Club President; Student Government Treasurer
+          Math Club President, Multi-Ethnic Cultural Awareness Club President, and Student Government Treasurer.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -164,9 +165,9 @@ export default function Experience() {
         icon={<Energy />}
       >
         <h3 className="vertical-timeline-element-title" style={{ fontSize: '35px'}}>Orange Energizing Solutions</h3>
-        <h4 className="vertical-timeline-element-subtitle" style={{ fontSize: '25px'}}>Sales Intern</h4>
+        <h4 className="vertical-timeline-element-subtitle" style={{ fontSize: '25px'}}>Operations Intern</h4>
         <p style={{ fontSize: '18px'}}>
-          Organized Company Database, Administered Client Documentation, and Researched Sustainability Programs and Potential Partnerships; Jun 2022 - Aug 2022 and February 2023 - Aug 2023
+          Organized Company Database, Administered Client Documentation, and Researched Sustainability Programs and Potential Partnerships. Jun 2022 - Aug 2022 and February 2023 - Aug 2023.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -182,7 +183,7 @@ export default function Experience() {
         <h3 className="vertical-timeline-element-title" style={{ fontSize: '35px'}}>Actasys</h3>
         <h4 className="vertical-timeline-element-subtitle" style={{ fontSize: '25px'}}>Mechanical Engineering Intern</h4>
         <p style={{ fontSize: '18px'}}>
-          Manufactured the Patented Actajet Technology, Tested Jet Efficiency and Identified Improvements to the Product and Manufacturing Process
+          Manufactured the Patented Actajet Technology, Tested Jet Efficiency and Identified Improvements to the Product and Manufacturing Process.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -198,7 +199,7 @@ export default function Experience() {
         <h3 className="vertical-timeline-element-title" style={{ fontSize: '35px'}}>TutorLinkNYC</h3>
         <h4 className="vertical-timeline-element-subtitle" style={{ fontSize: '25px'}}>Co-Founder + Co-President</h4>
         <p style={{ fontSize: '18px'}}>
-          Provides Free and Accessible 1-on-1 Tutoring Services to Disadvantaged Students
+          Provides Free and Accessible 1-on-1 Tutoring Services to Disadvantaged Students. Served 250+ students and recruited 150+ volunteers.
         </p>
       </VerticalTimelineElement>
     </VerticalTimeline>

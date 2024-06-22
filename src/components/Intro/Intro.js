@@ -3,7 +3,7 @@ import headshot from "../../assets/headshot.jpg";
 import { TypeAnimation } from "react-type-animation";
 import { useNavigate } from "react-router-dom";
 import ResumeView from './ResumeView.js';
-import resume from "../../assets/Dylan_Vig_Resume.pdf";
+import resume from "../../assets/Resume_Dylan_Vig.pdf";
 
 export default function Intro() {
   const navigate = useNavigate();
@@ -23,9 +23,21 @@ export default function Intro() {
 
         <TypeAnimation
           sequence={[
-            "Software Developer",
+            "Software Engineer",
             1500, 
-            "Cornell CS Student",
+            "CS Major",
+            1500,
+            "Cornell Student",
+            1500,
+            "Java Enthusiast",
+            1500,
+            "Full-Stack Developer",
+            1500,
+            "One Intern",
+            1500,
+            "Mage Data Intern",
+            1500,
+            "Balloon Twister",
             1500
           ]}
           wrapper="span"
