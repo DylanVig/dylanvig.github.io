@@ -15,10 +15,7 @@ export const SKILLS_DATA = [
         title: 'HTML/CSS',
     },
     {
-        title: 'React',
-    },
-    {
-        title: 'Redux',
+        title: 'React.js',
     },
     {
         title: 'Spring Boot',
