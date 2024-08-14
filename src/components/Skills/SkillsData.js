@@ -30,6 +30,15 @@ export const SKILLS_DATA = [
         title: 'Terraform'
     },
     {
+        title: 'MySQL'
+    },
+    {
+        title: 'Git',
+    },
+    {
+        title: 'fp-ts',
+    },
+    {
         title: 'Mathematica',
     }
 ]

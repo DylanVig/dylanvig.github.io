@@ -55,7 +55,7 @@ export default function Experience() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(155, 155, 155)", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  rgb(0,0,0)" }}
-        date="June 2024 - Present"
+        date="Jun. 2024 - Aug. 2024"
         iconStyle={{ background: "rgb(155, 155, 155)", color: "#fff", display: 'flex',
         alignItems: 'center',
         justifyContent: 'center' }}
@@ -66,15 +66,14 @@ export default function Experience() {
           Software Engineering Intern
         </h4>
         <p>
-          Working on the Servicing Engineering - Communications Team. Developing a solution to make one-time password email status data accessible to agents, allowing them to verify if
-          customers received their authentication code when registering their account.
+          Working on the Servicing Engineering Team. Worked mostly on internal tooling, which involved developing solutions to allow agents access OTP Authentication Email Delivery Status data to assist customers, prevent redundant Q&A article generation in the agent assistant tool when speaking to customers, and developing a new intent in the customer service chatbot.
         </p>
       </VerticalTimelineElement>
     <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(155, 155, 155)", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  rgb(0,0,0)" }}
-        date="May 2024 - Present"
+        date="May 2024 - Aug. 2024"
         iconStyle={{ background: "rgb(155, 155, 155)", color: "#fff", display: 'flex',
         alignItems: 'center',
         justifyContent: 'center' }}
@@ -92,7 +91,7 @@ export default function Experience() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(155, 155, 155)", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  rgb(0,0,0)" }}
-        date="Oct 2023 - Present"
+        date="Oct. 2023 - Present"
         iconStyle={{ background: "rgb(155, 155, 155)", color: "#fff", display: 'flex',
         alignItems: 'center',
         justifyContent: 'center' }}
@@ -110,7 +109,7 @@ export default function Experience() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(155, 155, 155)", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  rgb(0,0,0)" }}
-        date="Aug 2023 - Present"
+        date="Aug. 2023 - Present"
         iconStyle={{ background: "rgb(155, 155, 155)", color: "#fff", display: 'flex',
         alignItems: 'center',
         justifyContent: 'center' }}
@@ -120,29 +119,32 @@ export default function Experience() {
         <h4 className="vertical-timeline-element-subtitle" style={{ fontSize: '25px'}}>Engineering Student</h4>
         <p style={{ fontSize: '18px'}}>
           Pursuing a B.E. in Computer Science.
+          <br />
+          Minor in Operations Research and Information Engineering.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(155, 155, 155)", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  rgb(0,0,0)" }}
-        date="May 2023 - Aug 2023"
+        date="May 2023 - Aug. 2023"
         iconStyle={{ background: "rgb(155, 155, 155)", color: "#fff", display: 'flex',
         alignItems: 'center',
         justifyContent: 'center' }}
         icon={<Research />}
       >
         <h3 className="vertical-timeline-element-title" style={{ fontSize: '35px'}}>NYU Jonathan M. Tisch Center of Hospitality</h3>
-        <h4 className="vertical-timeline-element-subtitle" style={{ fontSize: '25px'}}>Research Intern</h4>
+        <h4 className="vertical-timeline-element-subtitle" style={{ fontSize: '25px'}}>
+        Tourism Business Research Assistant</h4>
         <p style={{ fontSize: '18px'}}>
-          Researched the Impacts of COVID-19 on Overtourism Under the Guidance of Professor Anna Abelson.
+        Conducted a research project discussing the impacts of COVID-19 on overtourism in popular tourist destinations, where I investigated the social, economic, and environmental impacts of overtourism and the changes in these conditions throughout the pandemic.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(155, 155, 155)", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  rgb(0,0,0)" }}
-        date="Sep 2019 - May 2023"
+        date="Sep. 2019 - May 2023"
         iconStyle={{ background: "rgb(155, 155, 155)", color: "#fff", display: 'flex',
         alignItems: 'center',
         justifyContent: 'center' }}
@@ -158,14 +160,15 @@ export default function Experience() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(155, 155, 155)", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  rgb(0,0,0)" }}
-        date="Jun 2022 - Aug 2023"
+        date="Jun. 2022 - Aug. 2023"
         iconStyle={{ background: "rgb(155, 155, 155)", color: "#fff", display: 'flex',
         alignItems: 'center',
         justifyContent: 'center' }}
         icon={<Energy />}
       >
         <h3 className="vertical-timeline-element-title" style={{ fontSize: '35px'}}>Orange Energizing Solutions</h3>
-        <h4 className="vertical-timeline-element-subtitle" style={{ fontSize: '25px'}}>Operations Intern</h4>
+        <h4 className="vertical-timeline-element-subtitle" style={{ fontSize: '25px'}}>
+        Client Operations Analyst Intern</h4>
         <p style={{ fontSize: '18px'}}>
           Organized Company Database, Administered Client Documentation, and Researched Sustainability Programs and Potential Partnerships. Jun 2022 - Aug 2022 and February 2023 - Aug 2023.
         </p>
@@ -174,7 +177,7 @@ export default function Experience() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(155, 155, 155)", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  rgb(0,0,0)" }}
-        date="Jun 2022 - Aug 2023"
+        date="Jun. 2022 - Aug. 2023"
         iconStyle={{ background: "rgb(155, 155, 155)", color: "#fff", display: 'flex',
         alignItems: 'center',
         justifyContent: 'center' }}
@@ -183,14 +186,14 @@ export default function Experience() {
         <h3 className="vertical-timeline-element-title" style={{ fontSize: '35px'}}>Actasys</h3>
         <h4 className="vertical-timeline-element-subtitle" style={{ fontSize: '25px'}}>Mechanical Engineering Intern</h4>
         <p style={{ fontSize: '18px'}}>
-          Manufactured the Patented Actajet Technology, Tested Jet Efficiency and Identified Improvements to the Product and Manufacturing Process.
+          Worked on the Actuator Development Team. Manufactured the Patented Actajet Technology, Tested Jet Efficiency and Identified Improvements to the Product and Manufacturing Process.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(155, 155, 155)", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  rgb(0,0,0)" }}
-        date="Jun 2021 - Present"
+        date="Jun. 2021 - May 2024"
         iconStyle={{ background: "rgb(155, 155, 155)", color: "#fff", display: 'flex',
         alignItems: 'center',
         justifyContent: 'center' }}

@@ -4,6 +4,8 @@ import snake2 from '../../assets/snake_recording.mov'
 import tetris2 from '../../assets/tetris_recording.mov'
 import portfolio1 from '../../assets/portfolio1.jpg'
 import portfolio2 from '../../assets/portfolio2.mov'
+import tour_optimizer1 from '../../assets/tour_optimizer.jpg'
+import tour_optimizer2 from '../../assets/tour_optimizer2.mp4'
 import progress from '../../assets/progress.jpg'
 
 export const PROJECTS = [
@@ -35,8 +37,8 @@ export const PROJECTS = [
         skills: ['HTML/CSS', 'JavaScript', 'React']
     },
     {
-        image: progress,
-        video: progress,
+        image: tour_optimizer1,
+        video: tour_optimizer2,
         title: 'Tour Optimizer',
         time: 'Jun. 2024',
         description: 'This is my tour guide optimizer, and my first larger scale project with a more complicated tech stack. When people travel to foreign countries, they often struggle planning their trip, deciding what tourist sites to travel to and when. This web application helps suggest tourist sites based on the city you travel to and optimizes the route to those sites. I also used algorithms such as backtracking and the Held-Karp algorithm to develop these optimized routes!',
