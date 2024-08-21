@@ -66,7 +66,7 @@ export default function Experience() {
           Software Engineering Intern
         </h4>
         <p>
-          Working on the Servicing Engineering Team. Worked mostly on internal tooling, which involved developing solutions to allow agents access OTP Authentication Email Delivery Status data to assist customers, prevent redundant Q&A article generation in the agent assistant tool when speaking to customers, and developing a new intent in the customer service chatbot.
+          Worked on the Servicing Engineering Team. Worked mostly on internal tooling, which involved developing solutions to allow agents access OTP Authentication Email Delivery Status data to assist customers, prevent redundant Q&A article generation in the agent assistant tool when speaking to customers, and developing a new intent in the customer service chatbot.
         </p>
       </VerticalTimelineElement>
     <VerticalTimelineElement
@@ -84,7 +84,7 @@ export default function Experience() {
           Software Engineering Intern
         </h4>
         <p>
-        Enhancing the current data discovery and masking system by integrating a more secure categorization and scoring model to enhance data protection by utilizing different Python libraries to increase the security and versatility.
+        Enhanced the current data discovery and masking system by integrating a more secure categorization and scoring model to enhance data protection by utilizing different Python libraries to increase the security and versatility.
         </p>
       </VerticalTimelineElement>
     <VerticalTimelineElement
