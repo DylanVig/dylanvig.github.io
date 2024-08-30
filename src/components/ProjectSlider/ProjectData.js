@@ -6,8 +6,6 @@ import portfolio1 from '../../assets/portfolio1.jpg'
 import portfolio2 from '../../assets/portfolio2.mov'
 import tour_optimizer1 from '../../assets/tour_optimizer1.jpg'
 import tour_optimizer2 from '../../assets/tour_optimizer2.mp4'
-import data_discovery1 from '../../assets/data_discovery1.jpg'
-import data_discovery2 from '../../assets/data_discovery2.mov'
 import progress from '../../assets/progress.jpg'
 
 export const PROJECTS = [
@@ -19,15 +17,6 @@ export const PROJECTS = [
         description: 'This is my tour guide optimizer, and my first larger scale project with a more complicated tech stack. When people travel to foreign countries, they often struggle planning their trip, deciding what tourist sites to travel to and when. This web application helps suggest tourist sites based on the city you travel to and optimizes the route to those sites. I also used algorithms such as backtracking and the Held-Karp algorithm to develop these optimized routes!',
         github: 'https://github.com/DylanVig/route-optimizer',
         skills: ['React.js', 'Spring Boot', 'PostgreSQL']
-    },
-    {
-        image: data_discovery1,
-        video: data_discovery2,
-        title: 'Data Discovery',
-        time: 'Aug. 2024',
-        description: 'This was the culmination of all of my researching and testing during my internship at Mage Data. I was tasked with enhancing the data discovery model by increasing the accuracy of its data categorizations. To do this, I looked into various machine learning and common regex libraries, eventually settling on the Capital One library. Overall, this experience was fantastic and it taught me how to use third-party libraries while also introducing me to Machine Learning and Cybersecurity.',
-        github: 'https://github.com/DylanVig/data-discovery-model',
-        skills: ['Python']
     },
     {
         image: snake1,
