@@ -6,8 +6,35 @@ import portfolio1 from '../../assets/portfolio1.jpg'
 import portfolio2 from '../../assets/portfolio2.mov'
 import tour_optimizer1 from '../../assets/tour_optimizer1.jpg'
 import tour_optimizer2 from '../../assets/tour_optimizer2.mp4'
+import ocamlEncryption from '../../assets/ocaml-encryption.jpg'
+import athleticTrainingFinder from '../../assets/athletic-training-finder.png'
+import gptree from '../../assets/gptree.png'
 
 export const PROJECTS = [
+    {
+        image: ocamlEncryption,
+        title: 'OCaml Encryption',
+        time: 'CS 3110',
+        description: 'This is an OCaml program that encrypts and decrypts text in a bunch of different languages.',
+        github: 'https://github.coecis.cornell.edu/drv36/3110-final-project',
+        skills: ['OCaml']
+    },
+    {
+        image: athleticTrainingFinder,
+        imageFit: 'contain',
+        title: 'Athletic Training Finder',
+        time: 'Spring 2026',
+        description: 'This is my CS/INFO 4300 project. It takes a natural-language query and ranks exercises, training programs, and sports coaching posts. Keyword retrieval uses TF-IDF and cosine similarity, with a Porter stemmer, query expansion, and edit-distance spell correction. Semantic retrieval uses truncated SVD on that same index. An IR+RAG mode rewrites the query and reranks the candidates, and the search can filter by equipment, difficulty, and muscles to avoid.',
+        github: 'https://github.com/DylanVig/4300-Project',
+        skills: ['Python', 'Flask', 'React', 'TypeScript']
+    },
+    {
+        image: gptree,
+        title: 'GPTree',
+        description: 'GPTree is a tool I used to branch conversations in ChatGPT effectively.',
+        github: 'https://github.com/DylanVig/GPTree',
+        skills: []
+    },
     {
         image: tour_optimizer1,
         video: tour_optimizer2,
