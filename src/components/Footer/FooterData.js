@@ -1,5 +1,4 @@
 import LinkedIn from '../../assets/logos/linkedin.jpg'
-import TutorLinkNYC from '../../assets/logos/tutorlinknyc.jpg'
 // import Instagram from '../../assets/logos/instagram.jpg'
 import GitHub from '../../assets/logos/github.jpg'
 
@@ -14,11 +13,6 @@ export const DATA = [
         title: 'GitHub',
         image: GitHub,
         link: 'https://github.com/DylanVig'
-    },
-    {
-        title: 'TutorLinkNYC',
-        image: TutorLinkNYC,
-        link: 'https://tutorlinknyc.com'
     }
     /* {
         title: 'Instagram',
