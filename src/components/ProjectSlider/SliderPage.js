@@ -47,7 +47,7 @@ export default function SliderPage(props) {
               onMouseMove={handleMouseMove}
               className="video-size"
             >
-              {isHovering ? (
+              {isHovering && props.video ? (
                 <video
                   ref={videoRef}
                   src={props.video}
@@ -60,12 +60,18 @@ export default function SliderPage(props) {
                   src={props.image}
                   alt={props.title}
                   className="slider-image"
-                  style={{ width: '100%', height: 'auto', aspectRatio: '1'}}
+                  style={{
+                    width: '100%',
+                    height: 'auto',
+                    aspectRatio: '1',
+                    objectFit: props.imageFit || 'cover',
+                    backgroundColor: '#121417',
+                  }}
                 />
               )}
             </div>
             <h3>{props.title}</h3>
-            <h4 className="slider-title">{props.time}</h4>
+            {props.time ? <h4 className="slider-title">{props.time}</h4> : null}
             <p style={{ fontWeight: "600" }}>Click for Details!</p>
           </center>
         </div>
@@ -73,7 +79,7 @@ export default function SliderPage(props) {
         <div className="slider-container" onClick={flip}>
           <center>
             <h3 className="slider-title2">{props.title}</h3>
-            <h4 className="slider-title">{props.time}</h4>
+            {props.time ? <h4 className="slider-title">{props.time}</h4> : null}
             <p className="slider-description">{props.description}</p>
             <p className="slider-github">
               <a href={props.github} target="_blank" rel="noopener noreferrer">
