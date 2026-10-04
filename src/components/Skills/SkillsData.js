@@ -29,4 +29,8 @@ export const SKILL_GROUPS = [
       "Terraform",
     ],
   },
+  {
+    label: "AI Tools",
+    items: ["Claude Code", "Codex", "Grok Bot", "Instinct"],
+  },
 ];
