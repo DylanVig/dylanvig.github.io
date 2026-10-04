@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d898cc87.css",
-    "main.js": "/static/js/main.6fdd9b0b.js",
+    "main.js": "/static/js/main.189a7acf.js",
     "static/js/453.aac68abc.chunk.js": "/static/js/453.aac68abc.chunk.js",
     "static/media/portfolio2.mov": "/static/media/portfolio2.66379c3f0c436c9c0b0c.mov",
     "static/media/tour_optimizer2.mp4": "/static/media/tour_optimizer2.c3f121455ca870aeb5f0.mp4",
@@ -13,7 +13,6 @@
     "static/media/Resume_Dylan_Vig.pdf": "/static/media/Resume_Dylan_Vig.fcbca07b4686a0fb6a3e.pdf",
     "static/media/snake1.jpg": "/static/media/snake1.ab646118dcd0aed374cc.jpg",
     "static/media/tetris1.jpg": "/static/media/tetris1.ca8e9273297d4a9f2d6c.jpg",
-    "static/media/tutorlinknyc.jpg": "/static/media/tutorlinknyc.89cfca6b25192988f301.jpg",
     "static/media/github.jpg": "/static/media/github.3fc5ead9ff318bda611c.jpg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -21,11 +20,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.d898cc87.css.map": "/static/css/main.d898cc87.css.map",
-    "main.6fdd9b0b.js.map": "/static/js/main.6fdd9b0b.js.map",
+    "main.189a7acf.js.map": "/static/js/main.189a7acf.js.map",
     "453.aac68abc.chunk.js.map": "/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d898cc87.css",
-    "static/js/main.6fdd9b0b.js"
+    "static/js/main.189a7acf.js"
   ]
 }
