@@ -14,7 +14,7 @@ export const PROJECTS = [
     {
         image: ocamlEncryption,
         title: 'OCaml Encryption',
-        time: 'CS 3110',
+        time: 'September 2024 – December 2024',
         description: 'This is an OCaml program that encrypts and decrypts text in a bunch of different languages.',
         github: 'https://github.coecis.cornell.edu/drv36/3110-final-project',
         skills: ['OCaml']
@@ -23,7 +23,7 @@ export const PROJECTS = [
         image: athleticTrainingFinder,
         imageFit: 'contain',
         title: 'Athletic Training Finder',
-        time: 'Spring 2026',
+        time: 'February 2026 – May 2026',
         description: 'This is my CS/INFO 4300 project. It takes a natural-language query and ranks exercises, training programs, and sports coaching posts. Keyword retrieval uses TF-IDF and cosine similarity, with a Porter stemmer, query expansion, and edit-distance spell correction. Semantic retrieval uses truncated SVD on that same index. An IR+RAG mode rewrites the query and reranks the candidates, and the search can filter by equipment, difficulty, and muscles to avoid.',
         github: 'https://github.com/DylanVig/4300-Project',
         skills: ['Python', 'Flask', 'React', 'TypeScript']
@@ -31,6 +31,7 @@ export const PROJECTS = [
     {
         image: gptree,
         title: 'GPTree',
+        time: 'April 2026',
         description: 'GPTree is a tool I used to branch conversations in ChatGPT effectively.',
         github: 'https://github.com/DylanVig/GPTree',
         skills: []
