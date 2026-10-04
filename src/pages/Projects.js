@@ -1,63 +1,20 @@
-import React, { useState, useEffect } from "react";
-import NavBar from "../components/NavBar/NavBar.js";
+import PageShell from "../components/PageShell/PageShell.js";
 import ProjectSlider from "../components/ProjectSlider/ProjectSlider.js";
-import "../components/ProjectSlider/ProjectSlider.css";
-import "./Pages.css";
-import Footer from "../components/Footer/Footer.js";
-import ProgrammingLanguages from "../components/ProgrammingLanguages/ProgrammingLanguages.js";
-import Skills from '../components/Skills/Skills.js'
+import Skills from "../components/Skills/Skills.js";
 
 export default function Projects() {
-  const [loaded, setLoaded] = useState(0);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setLoaded(1), 100);
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
-    <div className="projects-page">
-      <center>
-        <NavBar />
-      </center>
-      <center>
-        <h1
-          style={{
-            opacity: loaded,
-            transition: "opacity 400ms ease-in",
-            filter: "drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5))",
-          }}
-        >
-          Projects
-        </h1>
-      </center>
-      <ProjectSlider
-        style={{
-          opacity: loaded,
-          transition: "opacity 800ms ease-in",
-          filter: "drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)",
-        }}
-      />
-      <center
-        style={{
-          opacity: loaded,
-          transition: "opacity 1200ms ease-in",
-          filter: "drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5))",
-          marginTop: "100px",
-        }}
-      >
-        <h1>Skills</h1>
+    <PageShell title="Projects" wide>
+      <header className="page-heading">
+        <p className="kicker">Projects</p>
+        <h1>Things I've built</h1>
+        <p className="lede">Click a card for the write-up. Hover a still to play the recording.</p>
+      </header>
+      <ProjectSlider />
+      <section className="skills-block">
+        <h2>Skills</h2>
         <Skills />
-      </center>
-      <center
-        style={{
-          opacity: loaded,
-          transition: "opacity 1200ms ease-in",
-          filter: "drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)",
-        }}
-      >
-        <Footer />
-      </center>
-    </div>
+      </section>
+    </PageShell>
   );
 }

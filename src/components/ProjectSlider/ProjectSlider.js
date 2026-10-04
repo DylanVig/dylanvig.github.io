@@ -31,11 +31,11 @@ export default function ProjectSlider({ style }) {
     ]
   };
   return (
-    <div style={style}>
+    <div className="projects-slider" style={style}>
       <Slider {...settings}>
         {PROJECTS.map((project) => (
-          <div>
-            <SliderPage key={project.title} {...project} />
+          <div key={project.title}>
+            <SliderPage {...project} />
           </div>
         ))}
       </Slider>

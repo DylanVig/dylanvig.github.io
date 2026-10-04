@@ -1,83 +1,60 @@
-/* Footer.css */
-.Footer {
-    display: flex;
+.site-footer {
+  width: min(1120px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 28px 0 40px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
 }
 
-.Footer-Left {
-    width: 100%;
-    margin-top: 20px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    display: flex;
-    align-items: center; 
-    flex-direction: column;
-    
-    img {
-        margin-right: 5px;
-        filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
-        -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5)); /* Safari */
-        transition: transform 250ms;
-    }
-
-    img:hover {
-        filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5));
-        -webkit-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5)); /* Safari */
-        transform: scale(1.1);
-    }
-    
-    h1 {
-        margin-bottom: 0px;
-        font-size: 35px;
-    }
-    h4 {
-        font-size: 20px;
-        font-family: 'Palatino';
-        width: 100%;
-    }
+.site-footer p {
+  margin: 0;
+  text-align: center;
+  color: var(--muted);
+  font-size: 1rem;
 }
 
-.Footer-Right {
-    width: 50%;
-    display: flex;
-    margin-top: 40px;
-    padding-right: 100px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    align-items: flex-end; 
-    flex-direction: column;
-    
-    img {
-        margin-right: 5px;
-    }
-    
-    h1 {
-        margin-bottom: 0px;
-        font-size: 35px;
-    }
+.site-footer a {
+  color: var(--ink);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: var(--forest);
 }
 
 .Footer-Data-Container {
-    display: flex;
-    flex-direction: row; /* Changed to row */
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .Footer-Boxes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    
-    img {
-        width: 5rem;
-        height: 5rem;
-        border-radius: 50%;
-    }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12px;
+}
 
-    h4 {
-        color: white;
-        font-size: 10px;
-    }
+.Footer-Boxes img {
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  transition: transform 180ms ease;
+}
+
+.Footer-Boxes img:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 720px) {
+  .site-footer {
+    width: min(1120px, calc(100% - 28px));
+  }
 }

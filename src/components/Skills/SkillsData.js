@@ -1,44 +1,32 @@
-export const SKILLS_DATA = [
-    {
-        title: 'Java',
-    },
-    {
-        title: 'Python',
-    },
-    {
-        title: 'TypeScript'
-    },
-    {
-        title: 'JavaScript',
-    },
-    {
-        title: 'HTML/CSS',
-    },
-    {
-        title: 'React.js',
-    },
-    {
-        title: 'Spring Boot',
-    },
-    {
-        title: 'PostgreSQL',
-    },
-    {  
-        title: 'AWS'
-    },
-    {
-        title: 'Terraform'
-    },
-    {
-        title: 'MySQL'
-    },
-    {
-        title: 'Git',
-    },
-    {
-        title: 'fp-ts',
-    },
-    {
-        title: 'Mathematica',
-    }
-]
+export const SKILL_GROUPS = [
+  {
+    label: "Programming Languages",
+    items: [
+      "Java",
+      "Python",
+      "C",
+      "C++",
+      "TypeScript",
+      "JavaScript",
+      "Hack/PHP",
+      "OCaml",
+      "SQL",
+      "HTML/CSS",
+    ],
+  },
+  {
+    label: "Tools / Libraries",
+    items: [
+      "React.js",
+      "Remix.js",
+      "Redux.js",
+      "Node.js",
+      "Spring Boot",
+      "PostgreSQL",
+      "MySQL",
+      "Git",
+      "AWS",
+      "Terraform",
+    ],
+  },
+];

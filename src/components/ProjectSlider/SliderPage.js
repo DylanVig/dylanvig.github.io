@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef } from 'react'
 import LanguageButton from './LanguageButton.js'
 
 export default function SliderPage(props) {
@@ -6,12 +6,6 @@ export default function SliderPage(props) {
   const [ isHovering, setIsHovering ] = useState(false);
   const videoRef = useRef(null);
   const [ isFlipped, setFlipped ] = useState(false);
-  const [loaded, setLoaded] = useState(1);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setLoaded(1), 100);
-    return () => clearTimeout(timer);
-}, []);
 
   const handleMouseEnter = () => {
       setIsHovering(true);

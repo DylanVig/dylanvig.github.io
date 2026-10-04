@@ -1,75 +1,88 @@
-.underline {
-    border-bottom: 2px solid red;
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  background:
+    radial-gradient(900px 420px at 100% -10%, rgba(138, 61, 34, 0.08), transparent 60%),
+    radial-gradient(700px 380px at -10% 20%, rgba(22, 78, 69, 0.07), transparent 55%),
+    var(--bg);
 }
 
-.home-intro {
-    background-image: url('../assets/background2.jpg'); /* Adjust the path as necessary */
-    background-color: white;
-    background-size: cover; /* Scale the background image to be as large as possible */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-attachment: fixed; /* Optional: Fix the background relative to the viewport */
-    background-position: center;
-    height: auto; /* This ensures the background covers the whole viewport */
-    width: 100%;
-    line-height: 10px;
-
-    h1 {
-        font-family: 'Palatino';
-        font-size: 120px;
-        color: white;
-        text-decoration: 'bold', 'underline';
-    }
-
-    h2 {
-        font-family: 'Palatino';
-        font-size: 50px;
-        color: white;
-        text-decoration: underline;
-    }
+.page-main {
+  width: min(var(--page), calc(100% - 40px));
+  margin: 0 auto;
+  padding: 42px 0 72px;
+  flex: 1;
+  animation: rise 640ms ease both;
 }
 
-.projects-page {
-    background-image: url('../assets/background2.jpg'); /* Adjust the path as necessary */
-    /*background-color: lightblue;*/
-    background-size: cover;
-    background-position: center;
-    height: 100vh; /* This ensures the background covers the whole viewport */
-    width: 100%;
-    transition: ease-in;
-    overflow-x: hidden;
-
-    p {
-        font-size: 25px;
-    }
-
-    h2 {
-        color: white;
-        font-family: Palatino;
-        font-size: 40px;
-    }
-
-    h4 {
-        color: white;
-        font-family: Palatino;
-        font-size: 30px;
-        width: 60%;
-    }
+.page-main-wide {
+  --page: 1180px;
 }
 
-h1 {
-    font-family: 'Palatino';
-    font-size: 70px;
-    color: white;
+.page-heading {
+  margin-bottom: 36px;
+  max-width: 40rem;
 }
 
-h3 {
-    font-family: 'Palatino';
-    font-size: 40px;
-    color: white;
+.page-heading h1,
+.hero-name {
+  font-size: clamp(3rem, 7vw, 5.4rem);
+  margin: 0;
 }
 
-p {
-    font-family: 'Palatino';
-    font-size: 18px;
-    color: white;
+.page-heading h1 {
+  font-size: clamp(2.8rem, 6vw, 4.6rem);
+}
+
+.kicker {
+  margin: 0 0 12px;
+  color: var(--clay);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.lede,
+.about-copy {
+  max-width: 42rem;
+  margin: 18px 0 0;
+  color: var(--muted);
+  font-size: 1.18rem;
+  line-height: 1.7;
+}
+
+.about-copy {
+  color: var(--ink);
+  font-size: 1.2rem;
+}
+
+.section-label {
+  margin: 0 0 8px;
+  color: var(--clay);
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .page-main {
+    width: min(var(--page), calc(100% - 28px));
+    padding-top: 28px;
+  }
 }

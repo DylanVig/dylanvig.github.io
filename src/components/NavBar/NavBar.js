@@ -1,52 +1,48 @@
-import './NavBar.css'
-import { useState } from 'react'
-import NavButton from './NavButton.js'
-import { useNavigate } from 'react-router-dom'
+import "./NavBar.css";
+import { useNavigate, useLocation } from "react-router-dom";
+import NavButton from "./NavButton.js";
+
+const LINKS = [
+  { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
+  { label: "Experience", href: "/experience" },
+  { label: "Projects", href: "/projects" },
+  { label: "Contact", href: "/contact" },
+];
 
 export default function NavBar() {
+  const navigate = useNavigate();
+  const location = useLocation();
 
-    const [ selectedPage, setPage ] = useState("Home");
-    const navigate = useNavigate();
-
-    function handleSelect(page) {
-        setPage(page);
-        navigate("/" + page.toLowerCase())
+  function isSelected(href) {
+    const path = location.pathname.toLowerCase();
+    if (href === "/") return path === "/" || path === "/home";
+    if (href === "/experience") {
+      return path === "/experience" || path === "/experiencepage";
     }
+    return path === href;
+  }
 
-    return (
-      <div className="NavBar">
-        <ul>
-          <NavButton
-            isSelected={selectedPage === "Home"}
-            onClick={() => handleSelect("Home")}
-          >
-            Home
-          </NavButton>
-          <NavButton
-            isSelected={selectedPage === "About"}
-            onClick={() => handleSelect("About")}
-          >
-            About
-          </NavButton>
-          <NavButton
-            isSelected={selectedPage === "ExperiencePage"}
-            onClick={() => handleSelect("ExperiencePage")}
-          >
-            Experience
-          </NavButton>
-          <NavButton
-            isSelected={selectedPage === "Projects"}
-            onClick={() => handleSelect("Projects")}
-          >
-            Projects
-          </NavButton>
-          <NavButton
-            isSelected={selectedPage === "Contact"}
-            onClick={() => handleSelect("Contact")}
-          >
-            Contact
-          </NavButton>
-        </ul>
+  return (
+    <header className="site-header">
+      <div className="site-header-inner">
+        <button className="wordmark" onClick={() => navigate("/")}>
+          Dylan Vig
+        </button>
+        <nav aria-label="Primary">
+          <ul>
+            {LINKS.map((link) => (
+              <NavButton
+                key={link.href}
+                isSelected={isSelected(link.href)}
+                onClick={() => navigate(link.href)}
+              >
+                {link.label}
+              </NavButton>
+            ))}
+          </ul>
+        </nav>
       </div>
-    );
+    </header>
+  );
 }

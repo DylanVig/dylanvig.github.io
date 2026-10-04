@@ -6,7 +6,6 @@ import portfolio1 from '../../assets/portfolio1.jpg'
 import portfolio2 from '../../assets/portfolio2.mov'
 import tour_optimizer1 from '../../assets/tour_optimizer1.jpg'
 import tour_optimizer2 from '../../assets/tour_optimizer2.mp4'
-import progress from '../../assets/progress.jpg'
 
 export const PROJECTS = [
     {
