@@ -1,18 +1,13 @@
 .language-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .language-button button {
-    background-color: rgb(80, 80, 80);
-    color: white;
-    padding: 4px;
-    padding-inline: 12px;
-    margin: 4px;
-    font-family: Palatino;
-    font-size: 13px;
-    border-radius: 20px;
-    border: none;
-  }
-  
+  display: inline-flex;
+}
+
+.language-button button {
+  background: var(--bg);
+  color: var(--ink);
+  padding: 4px 10px;
+  margin: 4px;
+  font-size: 0.82rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+}

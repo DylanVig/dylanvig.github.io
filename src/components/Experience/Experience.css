@@ -1,0 +1,163 @@
+.resume {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.education-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 28px 28px 24px;
+  box-shadow: var(--shadow);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px 24px;
+}
+
+.education-card h2,
+.role-body h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+}
+
+.education-school,
+.education-degree,
+.education-minor,
+.education-date {
+  margin: 6px 0 0;
+}
+
+.education-school,
+.education-date,
+.role-dates,
+.role-place {
+  color: var(--muted);
+}
+
+.education-degree {
+  margin-top: 14px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.education-date {
+  margin: 4px 0 0;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.coursework {
+  grid-column: 1 / -1;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+.coursework h3 {
+  margin: 0 0 12px;
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.coursework ul,
+.stack,
+.role-points,
+.roles {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.coursework ul,
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.coursework li,
+.stack li {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  font-size: 0.9rem;
+}
+
+.roles {
+  display: flex;
+  flex-direction: column;
+}
+
+.role {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 28px;
+  padding: 32px 0;
+  border-top: 1px solid var(--line);
+}
+
+.role-index {
+  display: block;
+  font-family: var(--serif);
+  font-size: 1.7rem;
+  font-weight: 620;
+  letter-spacing: -0.04em;
+  color: var(--clay);
+}
+
+.role-dates,
+.role-place,
+.role-title {
+  margin: 4px 0 0;
+}
+
+.role-title {
+  color: var(--forest);
+  font-weight: 600;
+}
+
+.stack {
+  margin-top: 14px;
+}
+
+.role-points {
+  display: grid;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.role-points li {
+  position: relative;
+  padding-left: 16px;
+  line-height: 1.55;
+}
+
+.role-points li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--clay);
+}
+
+@media (max-width: 760px) {
+  .education-card,
+  .role {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .education-date {
+    white-space: normal;
+  }
+}
